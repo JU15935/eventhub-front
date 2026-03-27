@@ -1,15 +1,10 @@
-
-
-import { Button } from './design/atoms/button'
-import { Input } from './design/atoms/input'
 import './index.css'
-
+import Navbar from './modules/navbar/Navbar'
 
 function App() {
   return (
-    <div className="typography" >
-    <Input label="probando"></Input>
-     <Button children="boton prueba"></Button>
+    <div>
+      <Navbar />
     </div>
   )
 }
